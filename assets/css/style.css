@@ -18,7 +18,7 @@ body {
 
 #banner {
 	text-align: center;
-	background-color: white;
+	background-color: lightblue;
 }
 h1{
 	background-color: #bbbbbb;
@@ -31,23 +31,31 @@ h1{
 	margin: 0 auto;
 }
 
+h4{
+	text-align: center;
+}
 #instructions {
 	color: white;
-	background-color: #666fff;
+	background-color: #888666;
 	width: 100%;
 	clear:both;
 	padding: 25px;
 	margin-top: 20px;
 	border: solid 1px #dddddd
-}
 
+}
+.paragraph {
+	text-align: center;
+	font-style: italic;
+}
 #guessingNumber {
-	background-color: #888ddd;
+	width: 50%;
+	background-color: #eeeeee;
 	float: left;
 	display: inline-block;
-	padding: 10px;
-	margin-top: 20px;
-	border: solid 1px #ddd
+	padding: 20px;
+	margin-top: 50px;
+	border: solid 3px #888fff
 }
 
 #scoreboard {
